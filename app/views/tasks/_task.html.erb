@@ -3,6 +3,9 @@
     <%= link_to edit_task_path(task) do %>
       created <%= time_ago_in_words(task.created_at) %> ago
     <% end %>
+    <div class="pull-right">
+      <%= link_to "<i class='fa fa-trash-o fa-lg'></i>".html_safe, task_path(task), method: :delete, data: { confirm: 'Are you sure?' } %>
+    </div>
   </div>
   <div class="panel-body"><%= task.content %></div>
   <div class="panel-footer text-center">
