@@ -1,6 +1,7 @@
 <h1 class="text-center">Editing Task</h1>
 
 <%= render 'form', task: @task %>
-
-<%= link_to 'Show', @task %> |
-<%= link_to 'Back', tasks_path %>
+<div class="form-signin">
+  <%= link_to 'Back', tasks_path, class: "fa fa-arrow-left fa-lg" %>
+  <%= link_to 'Show', @task, class: "fa fa-eye fa-lg pull-right" %> 
+</div>
