@@ -1,24 +1,18 @@
-# README
+# CleverToDoList
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+«CleverToDoList» — to-do приложение написаное на ruby on rails.
+Рассчитано на работу с heroku.
 
-Things you may want to cover:
+##Установка:
 
-* Ruby version
+* Ruby version 2.4.1
 
-* System dependencies
+* Rails version 5.1.0.rc1
 
-* Configuration
+* Database PostgreSQL 9.5
 
-* Database creation
+*Для разворачивания своей копии клонируйте git репозиторий, залейте на Heroku. Обязательно пропишите миграции на heroku командой heroku run bundle exec rake db:migrate.
 
-* Database initialization
+##Демо
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[Сайт](https://clevertodo.herokuapp.com/)
